@@ -8,5 +8,7 @@ There are some locations on map. Reaching from one point to another takes some t
 ## Solutions
 ### Greddy Best First Search
 [Solution using Greedy Best FS (python)](./greedy_best_first_search.py)
+
+Visualisation of Solution using Greedy Best FS
 ![Solved using Greedy Best First Search](https://user-images.githubusercontent.com/90519209/191224729-03d7c75d-52c0-4224-bc8b-ab3a7a832060.png)
 
