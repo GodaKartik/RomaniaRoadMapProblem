@@ -1,6 +1,9 @@
 from data import roadmap_as_graph, heuristic_values
 
 def GreedyBestFirstSearch(graph, heuristics, start, target):
+
+    # retruns path followed as a list
+    
     path = [start] 
     next_child = start
     while next_child != target:
@@ -16,4 +19,4 @@ def GreedyBestFirstSearch(graph, heuristics, start, target):
     return path
   
   # using Arad to Bucharest as an example
-  GreedyBestFirstSearch(roadmap_as_graph, heuristic_values, "Arad", "Bucharest")
+  print(GreedyBestFirstSearch(roadmap_as_graph, heuristic_values, "Arad", "Bucharest"))
